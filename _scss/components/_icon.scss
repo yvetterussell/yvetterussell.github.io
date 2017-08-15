@@ -1,0 +1,31 @@
+.icon {
+	display: inline-block;
+
+	&.icon--block {
+		display: block;
+	}
+}
+
+.icon--small {
+	vertical-align: bottom;
+	
+	width: $space-lg;
+	height: $space-lg;
+
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.icon--large {
+	vertical-align: bottom;
+	
+	width: $space-xxl;
+	height: $space-xxl;
+
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+}
